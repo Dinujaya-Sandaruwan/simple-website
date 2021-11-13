@@ -1,0 +1,325 @@
+:root{
+    --main-color:rgb(0, 192, 0);
+    --main-font: 'Roboto', sans-serif;
+    --black: black;
+}
+
+
+body{
+    margin: 0px;
+    font-family: var(--main-font);
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------
+                    Navigation Menu
+----------------------------------------------------------------------------------------------------------------------- */
+
+
+div.nav{
+    background-color: var(--black);
+    height: 80px;
+}
+
+img.logo{
+    width: 110px;
+    
+    position: relative;
+    top: 4px;
+    left: 30px;
+}
+
+ul.nav-manu{
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+
+li.list-iteam{
+    font-family: var(--main-font);
+    font-size: 20px;
+    display: inline;
+    padding: 30px 30px 25px 35px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+li.list-iteam:hover, li.current{
+    background-color: var(--main-color);
+}
+
+img.mobile-manu{
+    width: 70px;
+    position: absolute;
+    right: 10%;
+    top: 13px;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------
+                    Main Banner
+----------------------------------------------------------------------------------------------------------------------- */
+
+div.banner{
+    height: 800px;
+    background-image: url(img/banner.jpg);
+}
+
+h1.main-banner-title{
+    color: #FFF;
+    font-size: 80px;
+    font-family: var(--main-font) ;
+    font-weight: 500;
+}
+
+p.main-banner-after-title{
+    color: #FFF;
+    font-size: 30px;
+    font-family: var(--main-font);
+    font-weight: 300;
+}
+
+button.main-banner-btn{
+    width: 350px;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+    font-family: var(--main-font);
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+button.main-banner-btn:hover{
+    background-color: var(--main-color);
+    color: #FFF;
+}
+
+div.banner-content{
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    /* outline: 3px solid red; */
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------
+                    Our Courses
+----------------------------------------------------------------------------------------------------------------------- */
+
+div.main-title{
+    text-align: center;
+    margin-top: 50px;
+    font-family: var(--main-font);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+img.course-img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+div.course-content{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* outline: 3px solid red; */
+}
+
+h1.course-title{
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 800;
+}
+
+div.single-course{
+    width: 400px;
+    margin: 0px 40px 50px 40px;
+}
+
+p.course-text{
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+button.course-more{
+    background-color: black;
+    color: #FFF;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--main-font);
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button.course-more:hover{
+    background-color: var(--main-color);
+    
+}
+
+
+    /* padding: top left bottum right; */
+
+div.button-center{
+    width: 250px;
+    margin: auto;
+
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------
+                    Tec Plus
+----------------------------------------------------------------------------------------------------------------------- */
+
+h1.tec-title{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 70px;
+    padding: 30px;
+
+}
+
+div.tec{
+    background-image: url(img/banner.jpg);
+    color: #FFF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+div.tec-one-content{
+    width: 350px;
+    height: 200px;
+    background-color:var(--black);
+    border: 5px solid #FFF;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+h2.tec-one-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+h2.tec-one-number{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+div.tec-content{
+    display: flex;
+    /* width: 1600px;
+    margin: auto; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* outline: 3px solid red; */
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------
+                    Learn Tech
+----------------------------------------------------------------------------------------------------------------------- */
+
+div.learn{
+    margin-bottom: 80px;
+    /* outline: 3px solid blue; */
+}
+
+
+h1.learn-title{
+    text-align: center;
+    font-size: 60px;
+}
+
+div.learn-one-content{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(184, 184, 184);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px;
+    transition-duration: 0.5s;
+    margin-bottom: 40px;
+
+    
+    /* outline: 3px solid red; */
+
+}
+
+div.learn-one-content:hover{
+    transform: scale(1.05);
+    box-shadow: 7px 7px 15px;
+}
+
+h1.text-center{
+    text-align: center;
+}
+
+h1.learn-one-after-title{
+    font-size: 17px;
+}
+
+button.learn-one-btn{
+    background-color: var(--black);
+    color: #FFF;
+    height: 40px;
+    width: 250px;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+button.learn-one-btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+div.learn-btn-center{
+    width: 250px;
+    margin:auto;
+}
+
+img.learn-img{
+    border-radius: 10px;
+}
+
+div.learn-content{
+    display: flex;
+    /* width: 1450px;
+    margin: auto; */
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* outline: 3px solid green; */
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------
+                    Footer
+----------------------------------------------------------------------------------------------------------------------- */
+
+
+div.footer{
+    background-color: var(--black);
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+h3.footer-text{
+    font-weight: 10;
+}
